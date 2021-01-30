@@ -4,7 +4,7 @@
 
 .btn {
     padding: 8px 20px;
-    border-radius: 2px;
+    border-radius: 25px;
     outline: none;
     border: none;
     cursor: pointer;
@@ -12,8 +12,13 @@
 
 .btn--primary {
     background-color: var(--primary);
-    color: #242424;
+    color: rgb(58, 58, 185);
     border: 1px solid var(--primary)
+}
+
+.btn--primary:hover {
+    background: transparent!important;
+    color: rgb(58, 58, 185)!important;
 }
 
 .btn--outline {
@@ -36,6 +41,6 @@
 
 .btn--medium:hover, .btn--large:hover {
     background: #fff;
-    color: #242424;
+    color:rgb(58, 58, 185);
     transition: all 0.3s ease-out;
 }
