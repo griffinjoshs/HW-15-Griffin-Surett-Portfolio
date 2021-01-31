@@ -1,12 +1,14 @@
 import React from 'react';
 import '../Button/Button.css';
 import { Link } from 'react-router-dom';
+import { Button } from 'react-bootstrap';
+
 
 const STYLES = ['btn--primary', 'btn--outline', 'btn--test'];
 
-const SIZES = ['btn--medium', 'btn--large'];
+const SIZES = ['btn--medium', 'btn--large', 'btn--nav'];
 
-const Button = ({
+const ButtonComp = ({
   children,
   type,
   onClick,
@@ -21,15 +23,15 @@ const Button = ({
 
   return (
     <Link to='/sign-up' className='btn-mobile'>
-      <button
+      <Button
         className={`btn ${checkButtonStyle} ${checkButtonSize}`}
         onClick={onClick}
         type={type}
       >
         {children}
-      </button>
+      </Button>
     </Link>
   );
 };
 
-export default Button
+export default ButtonComp
