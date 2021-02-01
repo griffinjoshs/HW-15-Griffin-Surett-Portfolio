@@ -6,7 +6,7 @@ import { Button } from 'react-bootstrap';
 
 const STYLES = ['btn--primary', 'btn--outline', 'btn--test'];
 
-const SIZES = ['btn--medium', 'btn--large', 'btn--nav'];
+const SIZES = ['btn--medium', 'btn--large', 'btn--small', 'card--btn'];
 
 const ButtonComp = ({
   children,

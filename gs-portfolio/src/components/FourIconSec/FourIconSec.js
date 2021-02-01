@@ -2,36 +2,42 @@ import React from 'react'
 import { Container, Col, Row } from 'react-bootstrap';
 // import Button from '../Button/Button'
 import 'bootstrap/dist/css/bootstrap.min.css';
+import Box from './FourIconBox/FourIconBox'
+import './FourIconSec.css'
+import SkillContent from './FourIcon.json'
+import { CgWebsite } from "react-icons/cg";
+import { HiOutlinePencilAlt } from "react-icons/hi";
+import { AiFillLike } from "react-icons/ai";
+import { RiAdvertisementFill } from "react-icons/ri";
 
 export const FourIconSec = () => {
     return (
-        <>
+        <div id="iconContainer">
         <Container>
             <Row>
                 <Col sm={12} md={3}>
-                <div className="card" onClick="https://www.patreon.com/griffinjoshs">
-                        <br></br>
-                        <i className="boxIcon"></i>
-                            <br></br>
-                            <h3 className="boxHeader">Patreon</h3>
-                            <br></br>
-                            <p>For those who really support me, if you would like to get the best from me possible, join my Patreon Community. You will get free Merchandise as well as access to unposted and removed videos!</p>
-                            <br></br>
-                            {/* <div className="cardBtn" href="https://www.patreon.com/griffinjoshs">Learn More </Button>                            <br></br> */}
-                        </div>
+                    <Box
+                    icon={<CgWebsite/>}
+                    skill={SkillContent[0].skill}/>
                 </Col>
                 <Col sm={12} md={3}>
-                    
+                    <Box
+                    icon={<HiOutlinePencilAlt/>}
+                    skill={SkillContent[1].skill}/>
                 </Col>
                 <Col sm={12} md={3}>
-
+                    <Box
+                    icon={<AiFillLike/>}
+                    skill={SkillContent[2].skill}/>
                 </Col>
                 <Col sm={12} md={3}>
-
+                    <Box
+                    icon={<RiAdvertisementFill/>}
+                    skill={SkillContent[3].skill}/>
                 </Col>
             </Row>
         </Container>
-        </>
+        </div>
     )
 }
 

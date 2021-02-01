@@ -1,0 +1,26 @@
+.main-footer {
+    background-color: #13315c;
+    color: white;
+}
+
+#top-footer {
+    background-color: #36d1dc;
+    padding: 20px 2% 0px 5%;
+    font-size: 25px;
+}
+
+#topFootText {
+    padding-top: 6px;
+}
+
+.footerNavLink a{
+    color: white!important;
+    text-decoration: none;
+    line-height: 40px;
+}
+
+.footerNavLink a:hover{
+    color: rgb(0, 132, 255)!important;
+    text-decoration: none;
+}
+

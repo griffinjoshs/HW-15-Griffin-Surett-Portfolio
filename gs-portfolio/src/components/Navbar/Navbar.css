@@ -11,8 +11,31 @@
     grid-gap: 0!important;
   }
 
+  /* onscroll styles  */
+  /* onscroll color change */
+.navbar.active {
+  background-color: #000000;
+}
+/* 
+.navbar-expand-lg {
+  padding-left: 80px!important;
+} */
+
+/* Navbar Scroll */
+.navbar.scrolled {
+  background-color: black !important;
+}
+
+/* Change color of nav accordian */
+.navbar .navbar-toggler:active {
+  background: #3da8e6;
+  ;
+}
+
+
   
-  .navbar-logo {
+  .navbar-name {
+    margin-left: 50px!important;
     color: white!important;
     justify-self: start!important;
     padding: 5px 10px 5px 15px!important;
@@ -24,14 +47,26 @@
     border: solid white!important;
     border-radius: 100px!important;
     font-family: 'Catamaran', sans-serif;
-    font-size: 15px;
+    font-size: 12px;
   }
 
-  .navbar-logo:hover {
-    top: -3px;
+  .navbar-name:hover {
+    top: -3px!important;
+}
+
+.nav-menu {
+  padding-right: 100px!important;
+  /* padding-left: 50px!important; */
 }
 
 .nav-link {
   color: white!important;
+  padding-left: 35px!important;
+  padding-right: 35px!important;
+}
+
+.nav-link:hover {
+  border: solid white!important;
+  border-radius: 15px;
 }
   

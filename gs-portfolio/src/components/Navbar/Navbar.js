@@ -1,28 +1,30 @@
 import React from "react";
-import { Navbar, Nav, Button } from 'react-bootstrap';
-// import { Home } from "../../pages/Home";
-// import { FaBars, FaTimes } from "react-icons/fa";
+import { Navbar, Nav } from 'react-bootstrap';
 import "./Navbar.css";
-// import Button from "../Button/Button";
+import Content from './nav.json'
+import Button from '../Button/Button'
 
-export const NavBar = () => {
+const NavBar = () => {
+    const NameCaps = Content[0].name.toUpperCase()
     return (
-        <Navbar className='navbar fixed-top' collapseOnSelect expand="lg" bg="" variant="dark">
-        <Navbar.Brand href="#home" className='navbar-logo'>React-Bootstrap</Navbar.Brand>
+        <Navbar collapseOnSelect expand="lg" bg="" variant="dark" className='fixed-top'>
+          <Navbar.Brand href="#home" className='navbar-logo'></Navbar.Brand>
+        <Navbar.Brand href="#home" className='navbar-name'>{NameCaps}</Navbar.Brand>
         <Navbar.Toggle aria-controls="responsive-navbar-nav" />
         <Navbar.Collapse id="responsive-navbar-nav">
-          <Nav className="mr-auto">
-            <Nav.Link className='nav-link' href="#features">Features</Nav.Link>
-            <Nav.Link className='nav-link' href="#pricing">Pricing</Nav.Link>
+          <Nav className="ml-auto nav-menu">
+    <Nav.Link className='nav-link' href="/">{Content[0].menu1}</Nav.Link>
+            <Nav.Link className='nav-link' href="/Contact">{Content[0].menu2}</Nav.Link>
+            <Nav.Link className='nav-link' href="/About">{Content[0].menu3}</Nav.Link>
           </Nav>
           <Nav>
           <Button
-            className='btn'
-            buttonStyle='btn--primary'
-            buttonSize='btn--large'
+            className='btns'
+            buttonStyle='btn--outline'
+            buttonSize='btn--small'
             onClick={console.log('hey')}
           >
-           WATCH TRAILER 
+           Learn More 
           </Button>
           </Nav>
         </Navbar.Collapse>
