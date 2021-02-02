@@ -4,9 +4,9 @@ import { Link } from 'react-router-dom';
 import { Button } from 'react-bootstrap';
 
 
-const STYLES = ['btn--primary', 'btn--outline', 'btn--test'];
+const STYLES = ['btn--primary', 'btn--outline', 'btn--test', 'btn--form'];
 
-const SIZES = ['btn--medium', 'btn--large', 'btn--small', 'card--btn'];
+const SIZES = ['btn--medium', 'btn--large', 'btn--small', 'btn--card'];
 
 const ButtonComp = ({
   children,

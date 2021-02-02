@@ -1,18 +1,18 @@
 import React from 'react'
 import '../App.css'
-import HeroSection from '../components/HeroSection/HeroSection'
+import HeroSection from '../components/HeroSection/ContactHero/ContactHero'
 import Footer from '../components/Footer/Footer'
-import ContactHero from '../components/HeroSection/ContactHero.json'
-import ContactBody from '../components/ContactBody/ContactBody'
+// import ContactHero from '../components/HeroSection/ContactHero.json'
+import ContactBody from '../components/Contact/ContactBody/ContactBody'
+// import ContactForm from '../components/Contact/ContForm'
 
 export const Contact = () => {
     return (
         <>
-          <HeroSection 
-          Title={ContactHero[0].Header}
-          Paragraph={ContactHero[0].heroSubPost}
-          />
+          <HeroSection/>
+          <br></br>
           <ContactBody/>
+          <br></br>
           <Footer/>
         </>
     )

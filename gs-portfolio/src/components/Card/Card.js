@@ -3,9 +3,6 @@ import "./Card.css";
 import { Container, Row, Col } from "react-bootstrap";
 import Button from "../Button/Button";
 import { BiRightArrowCircle } from "react-icons/bi";
-// import { HiOutlinePencilAlt } from "react-icons/hi";
-// import { AiFillLike } from "react-icons/ai";
-// import { RiAdvertisementFill } from "react-icons/ri";
 const Card = (props) => {
     const { Title, Description, Icon } = props
   return (
@@ -24,7 +21,8 @@ const Card = (props) => {
               </p>
               <br></br>
               <Button
-                className="card--btn"
+                className='btn' buttonStyle='btn--card'
+                buttonSize='btn--medium'
                 href="https://www.patreon.com/griffinjoshs"
               >
                 Learn More <BiRightArrowCircle />{" "}

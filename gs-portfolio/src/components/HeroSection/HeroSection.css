@@ -19,6 +19,10 @@ video {
     object-fit: contain;
     padding-top: 100px;
   }
+
+  .contactHero {
+    height: 50vh;
+  }
   
   .hero-container > h1 {
     color: #fff;

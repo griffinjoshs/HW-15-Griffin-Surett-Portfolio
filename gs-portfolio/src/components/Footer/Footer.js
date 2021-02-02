@@ -10,10 +10,10 @@ const Footer = () => {
   return (
     <div className="main-footer">
       <Container fluid id="top-footer">
-          <Row><Col xl={6} id='topFootText'>
+          <Row><Col md={12} lg={6} id='topFootText'>
           <p className="text-xl-left md-center">{Foot[0].Title}</p>
         </Col>
-        <Col xl={6}>
+        <Col md={12} lg={6} id='footerSocials'>
           <FooterSocials/>
         </Col></Row>
         

@@ -20,7 +20,13 @@
 }
 
 .footerNavLink a:hover{
-    color: rgb(0, 132, 255)!important;
+    color: #36d1dc!important;
     text-decoration: none;
+}
+
+@media (max-width: 992px) {
+    #top-footer {
+    text-align: center;
+}
 }
 

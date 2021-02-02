@@ -54,8 +54,22 @@
     font-size: 15px!important;
 }
 
-.card--btn {
+.btn--card {
     background: transparent;
     border: none;
     font-size: 15px;
+}
+
+.btn--card:hover {
+    color: #36d1dc!important
+}
+
+.btn--form {
+    background: rgb(2,77,241);
+    background: linear-gradient(135deg, rgba(2,77,241,1) 29%, rgba(0,202,255,1) 68%)!important;
+}
+
+.btn--form:hover {
+    background: rgb(2,77,241);
+    background: linear-gradient(rgba(0,202,255,1) 68%, 135deg, rgba(2,77,241,1) 29%)!important;
 }

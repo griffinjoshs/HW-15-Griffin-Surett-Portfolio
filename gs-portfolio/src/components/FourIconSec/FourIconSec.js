@@ -4,7 +4,7 @@ import { Container, Col, Row } from 'react-bootstrap';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import Box from './FourIconBox/FourIconBox'
 import './FourIconSec.css'
-import SkillContent from './FourIcon.json'
+import SkillContent from './FourIconContent'
 import { CgWebsite } from "react-icons/cg";
 import { HiOutlinePencilAlt } from "react-icons/hi";
 import { AiFillLike } from "react-icons/ai";

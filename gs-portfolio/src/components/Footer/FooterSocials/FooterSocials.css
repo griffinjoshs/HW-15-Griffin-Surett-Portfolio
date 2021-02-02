@@ -11,9 +11,21 @@
 .iconList {
     display: flex;
     text-align: right;
-    padding-left: 250px;
+    /* padding-left: 250px; */
 }
 
 .iconLists {
     padding: 4px 4px 4px 4px;
 } 
+
+@media (max-width: 500px) {
+    .iconLists {
+        text-align: center!important;
+    }
+}
+
+@media (min-width: 500px) {
+    .icon {
+        text-align: right!important;
+    }
+}

@@ -1,0 +1,26 @@
+.contact {
+    text-align: center;
+}
+
+#inputContainer {
+    box-shadow: 0 6px 12px #999, 0 6px 12px #999;
+    border-radius: 25px;
+}
+
+#inputContainer:hover {
+    box-shadow: 0 12px 24px #999, 0 12px 24px #999;
+}
+
+.form-control {
+    padding: 6px 16px;
+    margin-bottom: 20px;
+    min-height: 47px;
+    outline: none;
+    border: none;
+    background-color: #fafafa;
+    width: 450px;
+}
+.form-control:active {
+    box-shadow: 0 0 4px 3px rgb(44, 136, 255);
+}
+
