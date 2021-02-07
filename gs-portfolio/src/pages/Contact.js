@@ -1,20 +1,20 @@
 import React from 'react'
 import '../App.css'
-import HeroSection from '../components/HeroSection/ContactHero/ContactHero'
-import Footer from '../components/Footer/Footer'
-// import ContactHero from '../components/HeroSection/ContactHero.json'
+import './styles/Contact.css'
+import OtherHero from '../components/HeroSection/OtherHero/OtherHero'
 import ContactBody from '../components/Contact/ContactBody/ContactBody'
-// import ContactForm from '../components/Contact/ContForm'
+import Hero from '../components/HeroSection/OtherHero/OtherHero.json'
+
 
 export const Contact = () => {
     return (
-        <>
-          <HeroSection/>
+        <div className='contactPage'>
+          <OtherHero
+          Header={Hero[0].Header}/>
           <br></br>
           <ContactBody/>
           <br></br>
-          <Footer/>
-        </>
+        </div>
     )
 }
 

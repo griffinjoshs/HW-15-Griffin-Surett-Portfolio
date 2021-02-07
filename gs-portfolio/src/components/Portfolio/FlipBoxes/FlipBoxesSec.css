@@ -43,7 +43,7 @@
   }
 
   #cpaFront {
-      background: url('../../../image/i75.png');
+      /* background: url('../../../image/i75.png'); */
       /* background-attachment: fixed; */
     background-position: left;
     background-repeat: no-repeat;
@@ -57,11 +57,11 @@
   }
 
   #cpaBack {
-      background-color: #278476;
+      /* background-color: #278476; */
   }
 
   #radFront {
-      background: url('../../../image/Radicalz.png');
+      /* background: url('../../../image/Radicalz.png'); */
       background-position: left;
     background-repeat: no-repeat;
     background-size: cover;
@@ -75,7 +75,7 @@
   }
 
   #tipFront {
-      background: url('../../../image/Tipster.png');
+      /* background: url('../../../image/Tipster.png'); */
       background-position: center;
       background-repeat: no-repeat;
       background-size: cover;

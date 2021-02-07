@@ -1,0 +1,40 @@
+.contactBox {   
+    box-shadow: 0 3px 6px #999, 0 3px 6px #999;    
+    border-radius: 4vw 4vw 12vw 3vw;
+    padding: 4% 8% 4% 8%;
+    width: 400px;
+    height: 400px;
+    text-align: center;
+    cursor: pointer;
+}
+
+.contactBox:hover {
+    box-shadow: 0 6px 12px #999, 0 6px 12px #999;    
+}
+
+.contactInfo {
+    background: url('../../image/wpoverlay2.png');
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.contactCards {
+    background: url('../../image/wpoverlay2.png');
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.callIcon {
+    font-size: 50px;
+    text-align: center;
+    color: rgb(58, 58, 185);
+}
+
+.contactContent {
+    padding-top: 30px;
+    color:rgb(58, 58, 185);
+}

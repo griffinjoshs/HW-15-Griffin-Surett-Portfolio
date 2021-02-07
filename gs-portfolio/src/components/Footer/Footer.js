@@ -4,7 +4,7 @@ import "./Footer.css";
 import FooterSocials from "./FooterSocials/FooterSocials"
 import FooterBottom from './FooterBottom/FooterBottom'
 import Nav from '../Navbar/nav.json'
-import Foot from './Footer.json'
+import Foot from './FooterContent'
 
 const Footer = () => {
   return (
@@ -26,18 +26,20 @@ const Footer = () => {
         <Row>
           <Col md={3} sm={6}>
             <h4>{Foot[1].Title}</h4>
-            <ul className="list-unstyled">
-              {/* <img src */}
-            </ul>
+            <hr className='divider'></hr>
+            <img src={Foot[1].logo} alt={Foot[1].alt}></img>
           </Col>
           <Col md={3} sm={6}>
             <h4>{Foot[2].Title}</h4>
+            <hr className='divider'></hr>
             <ul className="list-unstyled">
-              <li className='footerNavLink'><a href={Foot[2].link1}>{Foot[2].site1}</a></li>
+              <li className='footerNavLink'>{Foot[2].email}</li>
+              <li className='footerNavLink'>{Foot[2].phone}</li>
             </ul>
           </Col>
           <Col md={3} sm={6}>
             <h4>{Foot[3].Title}</h4>
+            <hr className='divider'></hr>
             <ul className="list-unstyled">
               <li className='footerNavLink'><a href='/'>{Nav[0].menu1}</a></li>
               <li className='footerNavLink'><a href='/'>{Nav[0].menu2}</a></li>
@@ -46,6 +48,7 @@ const Footer = () => {
           </Col>
           <Col md={3} sm={6}>
             <h4>{Foot[4].Title}</h4>
+            <hr className='divider'></hr>
           </Col>
           </Row>
           <br></br>

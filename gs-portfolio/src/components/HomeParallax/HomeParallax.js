@@ -9,12 +9,8 @@ const HomeParallax = () => {
     <div>
       <section className="parallax">
         <Container>
-          <br></br>
           <Row className="parallaxRow">
-            <Col lg={2}></Col>
-            <br></br>
-            <br></br>
-            <Col md={12} lg={8}>
+            <Col md={12} lg={6}>
               <h2 id="paraTitle">
                 <strong>What Can I Do For You?</strong>
               </h2>
@@ -36,7 +32,11 @@ const HomeParallax = () => {
               <br></br>
               {/* <img src={Me} alt="star" text-align="center" id="Image"></img> */}
             </Col>
-            <Col lg={2}></Col>
+            <Col lg={1}></Col>
+            <Col md={12} lg={5}>
+            <div className='photoBox'>
+            </div>
+            </Col>
           </Row>
         </Container>
       </section>

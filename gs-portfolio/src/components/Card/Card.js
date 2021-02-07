@@ -12,7 +12,7 @@ const Card = (props) => {
           <Col>
             <div className="card" id='serviceCard'>
               <br></br>
-            <h2>{Icon}</h2>
+            <h2 className="cardCon">{Icon}</h2>
               <br></br>
               <h3 className="boxHeader">
               {Title}​</h3>

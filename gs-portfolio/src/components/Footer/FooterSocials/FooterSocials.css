@@ -2,10 +2,14 @@
     padding: 4px 10px 4px 10px;
     cursor: pointer;
     border-radius: 50%;
-    box-shadow: 0 3px 6px #999, 0 3px 6px #999;
-   font-size: 20px;
+    box-shadow: 1px -2px 1px   rgba(59, 82, 82, 0.6);
+    border-radius:25px;   font-size: 20px;
     line-height: 30.15385px;
     background-color: #24b1bb;
+}
+
+.icons:hover {
+    box-shadow: 2px -2px 5px rgba(59, 82, 82, 0.6);
 }
 
 .iconList {

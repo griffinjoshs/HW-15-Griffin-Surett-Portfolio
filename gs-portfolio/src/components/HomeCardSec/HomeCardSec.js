@@ -2,7 +2,7 @@ import React, { useState, useEffect } from "react";
 import CardBox from "../Card/Card";
 import { Container, Col, Row } from "react-bootstrap";
 import CardData from "./HomeCardContent";
-import "./HomeCardSec.css";
+import './HomeCard.css'
 
 const HomeCardSec = () => {
   const [cardContent, setCardContent] = useState(CardData);
@@ -10,7 +10,7 @@ const HomeCardSec = () => {
   setCardContent(CardData)
   },[])
   return (
-    <>
+    <div id='cardBoxes'>
       <br></br>
       <br></br>
       <br></br>
@@ -18,12 +18,12 @@ const HomeCardSec = () => {
       <div id="cardHead">
         {" "}
         <h2 className="homeH2">Griffin Surett Web Services</h2>
-        <h5 id="cardH5">We Win Together</h5>
+        <h5 id="cardH5">My Skills</h5>
       </div>
       <br></br>
       <br></br>
       <br></br>
-      <br></br>      <Container>
+      <Container>
         <Row>
           {cardContent.map((card, i) => (
             
@@ -41,7 +41,12 @@ const HomeCardSec = () => {
       <br></br>
       <br></br>
       <br></br>
-    </>
+      <br></br>
+      <br></br>
+      <br></br>
+      <br></br>
+      </div>
+    
   );
 };
 

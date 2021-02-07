@@ -1,3 +1,12 @@
 #iconContainer {
-    background: #e3e3e3;
+    background: #FCF7F5;
+    color: #36d1dc;
+}
+
+.iconBox:hover {
+    color: rgb(58, 58, 185)!important;
+}
+
+.line {
+    width: 30px;
 }

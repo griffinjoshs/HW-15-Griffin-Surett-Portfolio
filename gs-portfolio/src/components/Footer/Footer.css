@@ -30,3 +30,9 @@
 }
 }
 
+.divider {
+    background: linear-gradient(135deg, rgb(44, 136, 255), #36d1dc 68%);
+    height: 1px;
+    width: 100px;
+}
+

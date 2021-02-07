@@ -1,24 +1,29 @@
-const FourIcon = [
-    {
-        id: 0,
-        icon: "<CgWebsite/>",
-        skill: "Website Design"
-    },
-    {
-        id: 1,
-        icon: "<CgWebsite/>",
-        skill: "Graphic Design"
-    },
-    {
-        id: 2,
-        icon: "<CgWebsite/>",
-        skill: "Social Media Marketing"
-    },
-    {
-        id: 3,
-        icon: "<CgWebsite/>",
-        skill: "Digital Advertising"
-    }
-]
+import { CgWebsite } from "react-icons/cg";
+import { SiJavascript } from "react-icons/si";
+import { FaReact, FaNode } from "react-icons/fa";
 
-export default FourIcon
+
+const FourIcon = [
+  {
+    id: 0,
+    icon: <CgWebsite />,
+    skill: "HTML & CSS",
+  },
+  {
+    id: 1,
+    icon: <SiJavascript />,
+    skill: "JavaScript",
+  },
+  {
+    id: 2,
+    icon: <FaReact/>,
+    skill: "ReactJS",
+  },
+  {
+      id: 3,
+      icon: <FaNode/>,
+      skill: "NodeJS"
+  }
+];
+
+export default FourIcon;

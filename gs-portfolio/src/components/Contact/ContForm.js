@@ -1,6 +1,6 @@
 // import axios from "axios";
 import React, { useState } from "react";
-import { Col, Form } from "react-bootstrap";
+import { Form } from "react-bootstrap";
 import "./Contact.css";
 import Button from '../Button/Button'
 

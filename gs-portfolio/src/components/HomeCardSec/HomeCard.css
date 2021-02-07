@@ -1,0 +1,33 @@
+#cardBoxes {
+    background: url('../../image/wpoverlay2.png');
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+@media (max-width: 992px) {
+    .iconCard {
+        padding-top: 25px;
+}
+    .boxRowSpace {
+        padding-top: 30px;
+        display: none!important;
+    }
+}
+
+#cardHead {
+    text-align: center!important;
+}
+
+.homeH2 {
+    font-size: 80px;
+    font-weight: 600;
+    color: rgb(58, 58, 185)!important;
+    text-align: center!important;
+}
+
+#cardH5 {
+    color: grey;
+    font-weight: 100;
+}

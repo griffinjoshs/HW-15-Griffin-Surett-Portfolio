@@ -1,11 +1,22 @@
 .card {
     padding: 4% 8% 4% 8%;
-    box-shadow: 0 3px 6px #999, 0 3px 6px #999;
+    box-shadow:0 1px 4px rgba(0, 0, 0, 0.3);
+}
+
+.cardCon {
+    color: rgb(58, 58, 185);
+}
+
+@media (max-width: 992px) {
+    .cardCon {
+        color: rgb(58, 58, 185);
+    }
 }
 
 #serviceCard {
-    border-radius: 20px;
+    border-radius: 3vw 4vw 8vw 2vw;
 }
+
 @media (max-width: 992px) {
     .card {
     margin: 25px;

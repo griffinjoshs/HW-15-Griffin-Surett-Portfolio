@@ -66,10 +66,10 @@
 
 .btn--form {
     background: rgb(2,77,241);
-    background: linear-gradient(135deg, rgba(2,77,241,1) 29%, rgba(0,202,255,1) 68%)!important;
+    background: linear-gradient(135deg, #36d1dc, rgb(44, 136, 255) 68%)!important;
 }
 
 .btn--form:hover {
     background: rgb(2,77,241);
-    background: linear-gradient(rgba(0,202,255,1) 68%, 135deg, rgba(2,77,241,1) 29%)!important;
+    background: linear-gradient(135deg, rgb(44, 136, 255), #36d1dc 68%)!important
 }

@@ -1,10 +1,10 @@
 .navbar {
     background: transparent!important;
-    height: 80px;
+    height: 100px;
     display: flex;
     justify-content: center;
     align-items: center;
-    font-size: 1.2rem;
+    font-size: 1.1rem;
     position: sticky;
     top: 0;
     z-index: 999;
@@ -32,10 +32,12 @@
   ;
 }
 
-
+.navbar-logo {
+  margin-left: 30px!important;
+}
   
   .navbar-name {
-    margin-left: 50px!important;
+    margin-left: 10px!important;
     color: white!important;
     justify-self: start!important;
     padding: 5px 10px 5px 15px!important;
@@ -50,23 +52,24 @@
     font-size: 12px;
   }
 
-  .navbar-name:hover {
+  /* .navbar-name:hover {
     top: -3px!important;
-}
+} */
 
 .nav-menu {
-  padding-right: 100px!important;
-  /* padding-left: 50px!important; */
+  padding-right: 80px!important;
 }
 
 .nav-link {
   color: white!important;
-  padding-left: 35px!important;
-  padding-right: 35px!important;
 }
 
 .nav-link:hover {
   border: solid white!important;
   border-radius: 15px;
 }
+
+.navSpace {
+  padding-left: 35px!important;
+  padding-right: 35px!important;}
   

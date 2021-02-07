@@ -13,7 +13,9 @@ const ButtonComp = ({
   type,
   onClick,
   buttonStyle,
-  buttonSize
+  buttonSize,
+  buttonLink,
+  href
 }) => {
   const checkButtonStyle = STYLES.includes(buttonStyle)
     ? buttonStyle
@@ -22,11 +24,12 @@ const ButtonComp = ({
   const checkButtonSize = SIZES.includes(buttonSize) ? buttonSize : SIZES[0];
 
   return (
-    <Link to='/sign-up' className='btn-mobile'>
+    <Link to={buttonLink} className='btn-mobile'>
       <Button
         className={`btn ${checkButtonStyle} ${checkButtonSize}`}
         onClick={onClick}
         type={type}
+        href = {href}
       >
         {children}
       </Button>

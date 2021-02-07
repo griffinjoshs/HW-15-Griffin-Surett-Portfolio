@@ -7,6 +7,7 @@ import Testimonial from './HomeTestSec.json'
 const HomeTestSec = () => {
     return (
         <>
+        <div className='testimonials'>
         <br></br>
         <br></br>
         <br></br>
@@ -37,7 +38,10 @@ const HomeTestSec = () => {
             <br></br>
             <br></br>
             <br></br>
+            <br></br>
+            <br></br>
             </Container>
+            </div>
         </>
     )
 }

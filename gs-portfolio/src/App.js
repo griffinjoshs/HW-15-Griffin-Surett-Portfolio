@@ -6,7 +6,8 @@ import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 import "./App.css";
 import { Home } from "./pages/Home";
 import { Contact } from './pages/Contact'
-// import { Portfolio } from './pages/Portfolio'
+import Footer from "./components/Footer/Footer";
+import { Portfolio } from './pages/Portfolio'
 
 function App() {
   return (
@@ -15,9 +16,10 @@ function App() {
     <Navbar />
     <Switch>
       <Route path='/' exact component={Home}/>
-      <Route path='/Contact' exact component={Contact}/>
-      {/* <Route path='/Portfolio' exact component={Portfolio}/> */}
+      <Route path='/contact' exact component={Contact}/>
+      <Route path='/portfolio' exact component={Portfolio}/>
     </Switch>
+    <Footer/>
     </Router>
     </>
   );

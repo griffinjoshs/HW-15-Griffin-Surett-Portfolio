@@ -3,6 +3,8 @@ import Button from '../Button/Button'
 import { FiSend } from "react-icons/fi";
 import './HeroSection.css'
 import '../../App.css'
+import { Link } from 'react-router-dom';
+
 
 function HeroSection(props) {
   const { Title, Paragraph, PrimaryBtn, OutlineBtn} = props
