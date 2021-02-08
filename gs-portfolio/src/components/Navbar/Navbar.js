@@ -8,8 +8,8 @@ import Logo from '../../image/wpgriff.png'
 const NavBar = () => {
     const NameCaps = Content[0].name.toUpperCase()
     return (
-        <Navbar collapseOnSelect expand="lg" bg="" variant="dark" className='fixed-top'>
-          <img src={Logo} href='/' className='navbar-logo' alt='logo' height='60px' width='60px'></img>
+      <Navbar collapseOnSelect expand="lg" bg="" variant="dark" className='Navbar fixed-top'>
+          <img src={Logo} href='/' className='Navbar-logo' alt='logo' height='60px' width='60px'></img>
         <Navbar.Brand href="/" className='navbar-name'>{NameCaps}</Navbar.Brand>
         <Navbar.Toggle aria-controls="responsive-navbar-nav" />
         <Navbar.Collapse id="responsive-navbar-nav">

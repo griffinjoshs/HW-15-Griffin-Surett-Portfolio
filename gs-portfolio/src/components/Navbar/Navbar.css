@@ -1,11 +1,22 @@
-.navbar {
-    background: transparent!important;
-    height: 100px;
+.Navbar {
+  background: rgb(91,134,229);
+  background-image:
+  /*two color gradient over an image*/
+  linear-gradient(to bottom, rgba(91,134,229, 0.52), 
+rgba(91,134,229, 0.73)),url('../../image/wp-flip.webp');
+background-attachment: fixed;
+background-position: center top;
+background-repeat: no-repeat;
+background-size: cover;    height: 100px;
+box-shadow: inset 0 0 0 1000px rgba(0, 0, 0, 0.2);
+
+    padding-left: 100px!important;
+    padding-right: 30px!important;
     display: flex;
-    justify-content: center;
-    align-items: center;
+    justify-content: left;
+    /* align-items: right; */
     font-size: 1.1rem;
-    position: sticky;
+    /* position: sticky; */
     top: 0;
     z-index: 999;
     grid-gap: 0!important;
@@ -13,21 +24,9 @@
 
   /* onscroll styles  */
   /* onscroll color change */
-.navbar.active {
-  background-color: #000000;
-}
-/* 
-.navbar-expand-lg {
-  padding-left: 80px!important;
-} */
-
-/* Navbar Scroll */
-.navbar.scrolled {
-  background-color: black !important;
-}
 
 /* Change color of nav accordian */
-.navbar .navbar-toggler:active {
+.Navbar .navbar-toggler:active {
   background: #3da8e6;
   ;
 }

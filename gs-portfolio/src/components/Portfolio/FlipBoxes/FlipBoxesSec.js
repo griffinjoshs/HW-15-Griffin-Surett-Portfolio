@@ -49,7 +49,7 @@ const FlipBoxes = () => {
               <div class="flip-box-inner">
                 <div style={{background: `url(${image.url})`}} class="flip-box-front" id='cpaFront'>
                 </div>
-                <div class="flip-box-back" id='cpaBack'>   
+                <div style={{background: `${image.backColor}`}} class="flip-box-back" id='cpaBack'>   
                 <br></br>
                 <br></br>               
                 <br></br>
