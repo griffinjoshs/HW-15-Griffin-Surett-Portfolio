@@ -1,0 +1,29 @@
+{
+  "files": {
+    "main.css": "/static/css/main.da1ae38b.chunk.css",
+    "main.js": "/static/js/main.ae520293.chunk.js",
+    "main.js.map": "/static/js/main.ae520293.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.2e5d5afa.js",
+    "runtime-main.js.map": "/static/js/runtime-main.2e5d5afa.js.map",
+    "static/css/2.150d169a.chunk.css": "/static/css/2.150d169a.chunk.css",
+    "static/js/2.7f4b881a.chunk.js": "/static/js/2.7f4b881a.chunk.js",
+    "static/js/2.7f4b881a.chunk.js.map": "/static/js/2.7f4b881a.chunk.js.map",
+    "index.html": "/index.html",
+    "static/css/2.150d169a.chunk.css.map": "/static/css/2.150d169a.chunk.css.map",
+    "static/css/main.da1ae38b.chunk.css.map": "/static/css/main.da1ae38b.chunk.css.map",
+    "static/js/2.7f4b881a.chunk.js.LICENSE.txt": "/static/js/2.7f4b881a.chunk.js.LICENSE.txt",
+    "static/media/Radicalz.6d0ca5f7.png": "/static/media/Radicalz.6d0ca5f7.png",
+    "static/media/Tipster.56dc9110.png": "/static/media/Tipster.56dc9110.png",
+    "static/media/i75.8f29bf69.png": "/static/media/i75.8f29bf69.png",
+    "static/media/HomeParallax.css": "/static/media/wp-flip.e261fd48.webp",
+    "static/media/wpgriff.6d540f8d.png": "/static/media/wpgriff.6d540f8d.png",
+    "static/media/Contact.css": "/static/media/wpoverlay2.c50fe46a.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.2e5d5afa.js",
+    "static/css/2.150d169a.chunk.css",
+    "static/js/2.7f4b881a.chunk.js",
+    "static/css/main.da1ae38b.chunk.css",
+    "static/js/main.ae520293.chunk.js"
+  ]
+}
