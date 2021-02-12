@@ -4,23 +4,23 @@ import Navbar from "./components/Navbar/Navbar";
 // import HeroSection from './components/HeroSection/HeroSection'
 import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 import "./App.css";
-import { Home } from "./pages/Home";
-import { Contact } from './pages/contact'
+import Home from "./pages/Home";
+import Contact from "./pages/contact";
 import Footer from "./components/Footer/Footer";
-import { Portfolio } from './pages/Portfolio'
+import Portfolio from "./pages/Portfolio";
 
 function App() {
   return (
     <>
-    <Router>
-    <Navbar />
-    <Switch>
-      <Route path='/' exact component={Home}/>
-      <Route exact path='/contact' component={Contact}/>
-      <Route path='/portfolio' exact component={Portfolio}/>
-    </Switch>
-    <Footer/>
-    </Router>
+      <Router>
+        <Navbar />
+        <Switch>
+          <Route path="/" component={Home} />
+          <Route path="/contact" component={Contact} />
+          <Route path="/portfolio" component={Portfolio} />
+        </Switch>
+        <Footer />
+      </Router>
     </>
   );
 }
