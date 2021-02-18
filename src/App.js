@@ -2,7 +2,7 @@ import React from "react";
 // import ReactDOM from 'react-dom';
 import Navbar from "./components/Navbar/Navbar";
 // import HeroSection from './components/HeroSection/HeroSection'
-import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
+import { HashRouter as Router, Switch, Route } from "react-router-dom";
 import "./App.css";
 import Home from "./pages/Home";
 import Contact from "./pages/contact";
@@ -16,8 +16,8 @@ function App() {
         <Navbar />
         <Switch>
           <Route path="/" component={Home} />
-          <Route path="/contact" component={Contact} />
-          <Route path="/portfolio" component={Portfolio} />
+          <Route exact path="/contact" component={Contact} />
+          <Route exact path="/portfolio" component={Portfolio} />
         </Switch>
         <Footer />
       </Router>
